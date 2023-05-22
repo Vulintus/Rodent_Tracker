@@ -1,0 +1,10 @@
+SUBJECT: Video 10
+DATE: 16-Oct-2013
+
+START TIME: 09:37:53
+
+SCALE (pixels/cm): 13.2124
+RESOLUTION (pixels): 1280x 720
+BOUNDS (pixels): (0,0), (0,720), (1280,720), (1280,0)
+
+TIME_(s)	X_POSITION_(cm)	Y_POSITION_(cm)	ORIENTATION_(degrees)	LENGTH_(cm)
