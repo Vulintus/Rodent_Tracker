@@ -3,7 +3,7 @@ DATE: 25-Jul-2013
 
 START TIME: 14:47:19
 
-SCALE (pixels/cm): 3.8429
+SCALE (pixels/cm): 3.2246
 RESOLUTION (pixels): 320x240
 BOUNDS (pixels): (0,0), (0,240), (320,240), (320,0)
 

@@ -15,7 +15,8 @@ handles.bounds_line = [];                                                   %Cre
 handles.thresh = [];                                                        %Create a field to hold the threshold for each video.
 handles.min_pixels = [];                                                    %Create a field to hold the minimum pixel size for each video.
 handles.max_speed = 100;                                                    %Set the maximum expected speed, in centimeters/s.
-temp = userpath;                                                            %Grab the Matlab UserPath.
+userpath('reset');                                                          %Reset the MATLAB UserPath to the default.
+temp = userpath;                                                            %Grab the MATLAB UserPath.
 i = find(temp == '\' | temp == '/');                                        %Find all forward or backward slashes in the UserPath.
 handles.videos_dir = [temp(1:i(end-1)) 'Videos\'];                          %Set the default folder to save videos to.
 
